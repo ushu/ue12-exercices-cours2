@@ -26,7 +26,7 @@ print(create_zeros())  # attendu: [0. 0. 0. 0. 0.]
 
 # %%
 def create_ones():
-    pass  # 👈 Insérez le code ici
+    return np.ones(5)
 
 
 print(create_ones())  # attendu: [1. 1. 1. 1. 1.]
